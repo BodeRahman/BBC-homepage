@@ -29,7 +29,7 @@ header{
     color: black;
     border: 0;    
 }
-/*--- mainpage ---*/
+/*--- advert bar ---*/
 .advert{
     background-color: rgb(246, 246, 246);
     height: 127px;
@@ -38,6 +38,7 @@ header{
     padding: 0;
     margin: 0;
 }
+/*--- mainpage-header bar ---*/
 #mainpage{
     display: table;
     padding-right: 0px;
@@ -63,78 +64,4 @@ header{
     color: #4a4a4a;
     font-weight: bold;
     float: left;
-}
-/*--- mainpage-content ---*/
-.mainpage{
-    display: table;
-    padding-bottom: 2rem;
-}
-.mp-content{
-    width: 1263;
-    height: 7654.2;
-}
-.mp-media{
-    display: table;
-    list-style: none;
-    margin-left: -8px;
-    margin-right: -8px
-}
-.media-list-1{
-    width: 50%;
-    list-style: none;
-    float: left;
-}
-.media-img{
-    opacity: 1;
-    display: block;
-    list-style: none;
-    position: relative;
-    text-align: center;
-    padding-bottom: 341.717;
-    box-shadow: inset 0 0 80px rgba(0,0,0,0.5);
-    box-sizing: border-box;
-}
-.media-content{
-    position: absolute;
-    bottom: 75px;
-    padding-top: 91.1167;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-    width: 100%;
-    height: auto;
-}
-.media-link{
-    font-size: 2rem;
-    color: #fff;
-    position: relative;
-    z-index: 2;
-    display: block;
-    text-decoration: none;
-    box-sizing: border-box;
-}
-.media-summary{
-    font-size: 1rem;
-    line-height: 22px;
-    color: #d3d3d3;
-    margin-top: 0.5rem;
-    display: block;
-}
-.media-tag{
-    color: #d3d3d3;
-    height: 0.65625rem;
-    border-left-width: 0.13125rem;
-    border-color: #e91802;
-    border-left: 2px solid  #e91802;
-    font-size: 0.875rem;
-    margin-top: 0.75rem;
-    z-index: 2;
-}
-.media-overlay{
-    overflow: hidden;
-    text-indent: 200%;
-    white-space: nowrap;
-    visibility: visible;
-    background: transparent;
-    background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
 }
