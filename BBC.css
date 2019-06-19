@@ -1,5 +1,5 @@
 body{
-    width: 1263;
+    width: 1231;
     height: 8051.98;
 }
 header{
@@ -49,7 +49,7 @@ header{
 .mp-header{
     padding-bottom: 1rem;
     height: 54px;   
-    width: 1263px;
+    width: 1231px;
 }
 .mp-title{
     font-size: 1.375rem;
@@ -177,4 +177,59 @@ a.media-link-2:hover{
 a.media-tag-2:hover{
     color: #fff;
     text-decoration: none;
+}
+/*--- modulenews-bar---*/
+.module-column{
+    box-sizing: border-box;
+    width: 66.66667%;
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 1rem;
+}
+.module-title{
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: black;
+}
+.tag-news{
+    color: #4a4a4a;
+    border-color: #e91802;
+    height: 1.125rem;
+    border-left-width: 0.225rem;
+    border-left: 2px solid  #e91802;
+    font-size: 0.875rem;
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 5px;
+    padding-bottom: 20px;
+}
+.module-content{
+    width: 1231;
+}
+.mm-content{
+    height:134.4px;
+    width: 399.367px;
+    cursor: pointer;
+}
+.row{
+    width: 1231;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+a.mm-link{
+    font-size: 1.25rem;
+    color: black;
+    font-weight: bold;
+}
+.media-tag{
+    font-size: 0.875rem;
+    color: #767676;
+}
+.tag{
+    height: 0.65625rem;
+    border-left-width: 0.13125rem;
+    border-color: #e91802;
+    border-left: 2px solid  #e91802;
+    padding-left: 5px;
 }
