@@ -38,7 +38,6 @@ header{
     padding: 0;
     margin: 0;
 }
-/*--- mainpage-header bar ---*/
 #mainpage{
     display: grid;
     padding-right: 0px;
@@ -245,4 +244,80 @@ a.mm-link{
     font-size: 1.5rem;
     padding: 5px;
     padding-bottom: 20px;
+}
+/*--- weather-bar ---*/
+.weather{
+    width: 1247px;
+    height: 142px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    
+}
+.weather-head{
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    margin: 1.5rem 0 0.75rem 0;
+    padding: 0;
+    min-height: 50px;
+}
+.weather-location {
+    height: 2rem;
+    position: relative;
+}
+.weather-location h2{
+    font-size: 1.25rem;
+    color: #4a4a4a;
+    text-transform: uppercase;
+    margin: 0;
+    float: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+.weather-edit{
+    cursor: pointer;
+    padding: 0.5rem 0.5rem;
+    background: #f2f2f2;
+    font-size: 0.625rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #8c8c8c;
+    margin-left: 1rem;
+    float: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.forecast-weather{
+    width: 116px;
+}
+a.forecast-link{
+    text-decoration: none;
+    color: #212121;
+}
+.forecast-image{
+    float: left;
+    height: 56px;
+    width: 56px;
+}
+.forecast-day{
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
+.forecast-high{
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1px;
+}
+.forecast-low{
+    font-size: 0.75rem;
+    color: #4a4a4a;
+    line-height: 1px;
+}
+.forecast{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
