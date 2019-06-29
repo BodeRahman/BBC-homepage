@@ -1,9 +1,11 @@
 body{
     width: 1231;
-    height: 8051.98;
 }
 header{
     height: 40px;
+}
+section{
+    margin-top: 40px;
 }
 /*--- navigation bar ---*/
 .icon-u{
@@ -33,11 +35,11 @@ header{
 .advert{
     background-color: rgb(246, 246, 246);
     height: 127px;
-    width: 100%;
     min-width: 100%;
     padding: 0;
     margin: 0;
 }
+/*--- mainpage bar ---*/
 #mainpage{
     display: grid;
     padding-right: 0px;
@@ -65,7 +67,6 @@ header{
     font-weight: bold;
     float: left;
 }
-/*--- mainpagenews-headline bar ---*/
 .wrapper{
     display: grid;
     grid-gap: 20px;
@@ -168,7 +169,6 @@ a.media-tag-1:hover{
     margin-top: 0.75rem;
     z-index: 2;
 }
-
 a.media-link-2:hover{
     color: #fff;
     text-decoration: none;
@@ -250,15 +250,12 @@ a.mm-link{
     width: 1247px;
     height: 142px;
     padding-top: 16px;
-    padding-bottom: 16px;
-    
+    padding-bottom: 16px;    
 }
 .weather-head{
-    box-sizing: border-box;
     width: 100%;
     float: left;
     margin: 1.5rem 0 0.75rem 0;
-    padding: 0;
     min-height: 50px;
 }
 .weather-location {
@@ -321,3 +318,4 @@ a.forecast-link{
     flex-direction: row;
     flex-wrap: nowrap;
 }
+/*--- modulereel-bar ---*/
